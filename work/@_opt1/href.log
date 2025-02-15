@@ -1,0 +1,32 @@
+BEGIN 3:uvmtb_top@fast@NDU@rx_intf:fast__2:work
+    rx_tlast_i :  1:uvmtb_top:fast:work
+    aresetn_i :  1:uvmtb_top:fast:work
+    rx_tdata_i :  1:uvmtb_top:fast:work
+    aclk_i :  1:uvmtb_top:fast:work
+    rx_tvalid_i :  1:uvmtb_top:fast:work
+    rx_tready_o :  1:uvmtb_top:fast:work
+END 
+BEGIN 3:uvmtb_top@fast@NDU@rx_intf:fast:work
+    rx_tdata_i :  1:uvmtb_top:fast:work
+    aresetn_i :  1:uvmtb_top:fast:work
+    rx_tvalid_i :  1:uvmtb_top:fast:work
+    rx_tready_o :  1:uvmtb_top:fast:work
+    rx_tlast_i :  1:uvmtb_top:fast:work
+    aclk_i :  1:uvmtb_top:fast:work
+END 
+BEGIN 3:uvmtb_top@fast@NDU@tx_intf:fast__2:work
+    tx_tready_i :  1:uvmtb_top:fast:work
+    aresetn_i :  1:uvmtb_top:fast:work
+    tx_tlast_o :  1:uvmtb_top:fast:work
+    tx_tdata_o :  1:uvmtb_top:fast:work
+    aclk_i :  1:uvmtb_top:fast:work
+    tx_tvalid_o :  1:uvmtb_top:fast:work
+END 
+BEGIN 3:uvmtb_top@fast@NDU@tx_intf:fast:work
+    tx_tready_i :  1:uvmtb_top:fast:work
+    tx_tlast_o :  1:uvmtb_top:fast:work
+    aclk_i :  1:uvmtb_top:fast:work
+    tx_tdata_o :  1:uvmtb_top:fast:work
+    aresetn_i :  1:uvmtb_top:fast:work
+    tx_tvalid_o :  1:uvmtb_top:fast:work
+END 
